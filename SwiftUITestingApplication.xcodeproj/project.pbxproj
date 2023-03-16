@@ -12,8 +12,10 @@
 		03A8108A29C2C536007EABB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A8108929C2C536007EABB7 /* Assets.xcassets */; };
 		03A8108D29C2C536007EABB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A8108C29C2C536007EABB7 /* Preview Assets.xcassets */; };
 		03A8109729C2C536007EABB7 /* SwiftUITestingApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8109629C2C536007EABB7 /* SwiftUITestingApplicationTests.swift */; };
-		03A810A129C2C536007EABB7 /* SwiftUITestingApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A810A029C2C536007EABB7 /* SwiftUITestingApplicationUITests.swift */; };
 		03A810A329C2C536007EABB7 /* SwiftUITestingApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A810A229C2C536007EABB7 /* SwiftUITestingApplicationUITestsLaunchTests.swift */; };
+		03A810B029C2C603007EABB7 /* Operator+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A810AF29C2C603007EABB7 /* Operator+Extensions.swift */; };
+		03A810B329C2C8D5007EABB7 /* SwiftUITestingApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A810A029C2C536007EABB7 /* SwiftUITestingApplicationUITests.swift */; };
+		03A810B429C2C942007EABB7 /* Operator+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A810AF29C2C603007EABB7 /* Operator+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		03A8109C29C2C536007EABB7 /* SwiftUITestingApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITestingApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A810A029C2C536007EABB7 /* SwiftUITestingApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestingApplicationUITests.swift; sourceTree = "<group>"; };
 		03A810A229C2C536007EABB7 /* SwiftUITestingApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestingApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03A810AF29C2C603007EABB7 /* Operator+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				03A8108729C2C535007EABB7 /* ContentView.swift */,
 				03A8108929C2C536007EABB7 /* Assets.xcassets */,
 				03A8108B29C2C536007EABB7 /* Preview Content */,
+				03A810AF29C2C603007EABB7 /* Operator+Extensions.swift */,
 			);
 			path = SwiftUITestingApplication;
 			sourceTree = "<group>";
@@ -257,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A810B029C2C603007EABB7 /* Operator+Extensions.swift in Sources */,
 				03A8108829C2C535007EABB7 /* ContentView.swift in Sources */,
 				03A8108629C2C535007EABB7 /* SwiftUITestingApplicationApp.swift in Sources */,
 			);
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A8109729C2C536007EABB7 /* SwiftUITestingApplicationTests.swift in Sources */,
+				03A810B429C2C942007EABB7 /* Operator+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A810A329C2C536007EABB7 /* SwiftUITestingApplicationUITestsLaunchTests.swift in Sources */,
-				03A810A129C2C536007EABB7 /* SwiftUITestingApplicationUITests.swift in Sources */,
+				03A810B329C2C8D5007EABB7 /* SwiftUITestingApplicationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
